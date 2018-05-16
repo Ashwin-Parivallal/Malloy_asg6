@@ -1,0 +1,7 @@
+def f():
+  print 3
+  print 23
+def g():
+  print 32
+f()
+g()
