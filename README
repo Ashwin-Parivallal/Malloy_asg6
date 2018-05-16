@@ -1,0 +1,23 @@
+Name: Ashwin Parivallal
+
+Clemson Email Address: apariva@clemson.edu
+
+Project no: 6
+
+Project due date: 12/13/2017
+
+Project description: We needed to implement everything from project 5 and in addition make recursive functions work. To achieve this, I had to handle formal and actual function parameters. Then I needed to make mypy work for recursive functions. I have tested factorial and fibonacci programs and it worked.
+
+The easiest part of this project: Mapping the formal and actual parameters.
+
+Problems that I had in completing this project:  Again in this project, handling scope to make recursion work was difficult. 
+
+
+Notes:
+  1. For return statements, in my project, if the return statement is just "return" without any value, then I return a value of zero with it. Python 2.7 returns a None object in that case. The problem doesn't occur as long as we try to print a function whose return value is None. In that case python prints None and my mypy prints 0. I think we would not usually try to print a function that returns a nullptr/None.
+
+  2. Please use the factorial and fibonacci test cases so that the result is lower than the max size of int. I think if we try to compute factorials(of numbers greater than 12) whose result is very large, some overflow occurs and the results from mypy and python 2.7 don't match.
+
+  3. Also, I had small bugs in my project 5 which caused some test cases to fail. I have rectified those in this project.
+
+
